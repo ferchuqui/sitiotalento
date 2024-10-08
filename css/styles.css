@@ -1,0 +1,51 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.another-element {
+    font-family: 'Nunito', sans-serif;
+}
+/* ------------- Valores Iniciales ------------- */
+/* *   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    } */
+
+:root {
+    /* --- FONT SIZES --- */
+    --largest-font: ;
+    --larger-font: ;
+    --large-font: ;
+    --text-large-font: ;
+    --text-font: ;
+    /* --- COLOURS --- */
+    --text-color: ;
+    --hover-color: ;
+    --dark-color: ;
+    --bg-color: ;
+    --bg-color-header: ;
+    --header-change-color: ;
+}
+/* ----------------- PRELOADER ----------------- */
+
+/* ----------------- SCROLL TO TOP BUTTON ----------------- */
+
+/* ----------------- SCROLLBAR ----------------- */
+        
+/* ----------------- MAIN HEADER ----------------- */
+          
+/* ----------------- ABOUT ----------------- */
+         
+/* ----------------- SERVICES ----------------- */
+            
+/* ----------------- NEWSLETTER ----------------- */
+
+/* ----------------- FOOTER ----------------- */
+            
+/* ----------------- SLIDE IN WHEN IN VIEW ----------------- */
+            
+/* For Slide In from left */
+/* For Slide In from top */
+
+/* ----------------- BREAKPOINTS/SCREEN ADAPT ----------------- */
