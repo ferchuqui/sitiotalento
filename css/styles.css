@@ -73,10 +73,13 @@ nav {
     font-size: 20px;
     left: 40px;
     margin: 20px;
+    /* margin-right: 10px; */
     padding: 0px;
     position: absolute;
     top: 0;
 }
+
+
 .nav-menu {
     transition: all 0.5s;
 }
@@ -115,7 +118,7 @@ nav {
 }
 .nav-toggle {
     display: none;
-    visibility: hidden;
+    /* visibility: hidden; */
     transition: all 0.5s;
 }
 nav i {
