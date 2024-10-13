@@ -51,7 +51,22 @@
         
        )
         /* ---------------- SWIPER ---------------- */
-
+        var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                slidesPerView: 3,
+                centeredSlides: 'true',
+                spaceBetween: 20,
+                pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                        type: 'bullets',
+                },
+                navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                },
+                });
+        
         /* ---------------- SUBSCRIBE FORM ---------------- */
 
         /* ---------------- SCROLL TO ---------------- */

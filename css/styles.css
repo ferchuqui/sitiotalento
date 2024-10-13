@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -71,14 +73,14 @@ nav {
 }
 .nav-logo i {
     font-size: 1.5em;
-    margin: 1em;
+    /* margin: 1em; */
 }
 .nav-logo h2 {
     color: #010050;
     cursor: pointer;
     font-family: 'Poppins';
     font-size: 20px;
-    left: 40px;
+    left: 20px;
     margin: 20px;
     /* margin-right: 10px; */
     padding: 0px;
@@ -319,7 +321,89 @@ button i {
     margin: 1.3em 2em;
 }
 /* ----------------- SERVICES ----------------- */
-            
+.services {
+    align-items: center;
+    background: #eaf5a5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}          
+.services p {
+    padding: 10px;
+} 
+.swiper {
+    align-items: center;
+    display: flex;
+    height: 385px;
+    justify-content: center;
+    margin: 10px;
+    width: 750px;
+}
+.swiper .swiper-slide {
+    background: #cebaf2;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #e8eba6d7;
+    height: 350px;
+    position: relative;
+    width: 250px;
+}
+.swiper-slide::before {
+    background: radial-gradient(50% 100%, #a8b2eb, #9ec9e8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    clip-path: circle(65% at 50% 0%);
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transition: all 0.5s;
+    width: 100%;
+    z-index: 66;
+}
+.swiper-slide:hover::before {
+    clip-path: circle(68% at 50% 0%);
+}
+.swiper-slide i {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 12px;
+    position: absolute;
+    transform: translate(70px, 10px);
+    z-index: 99;
+}
+.swiper-slide h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: #000;
+    transform: translateY(150px);
+    z-index: 90;
+}
+.swiper-slide img {
+    position: relative;
+    width: 150px;
+    z-index: 100;
+    transform: translateY(-100px);
+    transition: all 0.5s;
+}
+.swiper-slide:hover img {
+    scale: 1.1;
+}
+
+.swiper-slide img[src="img/communicating.svg"] {
+    transform: translateY(-120px);
+}
+.swiper-pagination .swiper-pagination-bullet {
+    background: #000;
+    opacity: 0.4;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active{
+background: #010050;
+opacity: 1;
+}
 /* ----------------- NEWSLETTER ----------------- */
 
 /* ----------------- FOOTER ----------------- */
